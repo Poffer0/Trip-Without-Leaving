@@ -1,0 +1,313 @@
+$col-primary-dark: #46344E;
+$col-primary-middle: #9B786F;
+$col-primary-light: #9D8D8F;
+$col-primary-grey: #5A5560;
+$col-accent: #FAED26;
+$col-background: #1B1919;
+$col-cream: #f5f4ee;
+$col-cream-light: #fdfdfb;
+
+/*
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: , sans-serif ;
+    color: #222;
+}
+
+
+
+*/
+
+
+
+/* Navbar */
+
+.navbar {
+    padding: .5rem;
+    background-color: $col-background;
+}
+
+.navbar img {
+    width: 150px;
+    height: 60px;
+}
+
+.navbar-nav li {
+    padding-right: 25px;
+}
+
+/* Carousel */
+
+.carousel-inner img {
+    width: 50px;
+    height: 500px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    /*text-transform: uppercase;*/
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 150%;
+    font-weight: 350;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: $col-primary-light;
+    border: 1px solid $col-primary-light;
+}
+.btn-primary:hover {
+    background: $col-primary-grey;
+    border: 1px solid $col-primary-grey;
+}
+
+
+/* Body */
+
+body {
+    background-color: $col-cream-light;
+}
+
+
+
+/* Jumbotron */
+#textbox {
+    padding: 1rem;
+    background-color: $col-cream;
+
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.welcome hr {
+    border-top: 2px solid $col-background;
+    width: 90%;
+    margin: auto;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Icons */
+
+.icon {
+    padding-top: 20px;
+}
+.icon i {
+    padding-bottom: 25px;
+}
+
+
+
+
+.img-game {
+    width: 80%;
+    border: solid 15px;
+    border-color: $col-primary-light
+}
+.img-game-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+/* Available countries */
+
+.card {
+    background-color: $col-cream;
+}
+
+.card .btn {
+    background-color: $col-primary-light;
+    border-color: $col-primary-light;
+    color: $col-cream;
+}
+
+.btn-card2 {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-card3 {
+    float: right;
+}
+
+.btn-outline-secondary:hover {
+    background: $col-primary-grey;
+    border: 1px solid $col-primary-grey;
+}
+
+
+
+/* Navbar */
+
+
+
+
+
+/* Navbar */
+
+/* Navbar */
+
+/* Navbar */
+
+
+.hr-social {
+    width: 100%;
+    border: solid 1px;
+    border-color: $col-primary-light;
+}
+
+
+
+.social i{
+    color: $col-background;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.fa-social:hover {
+    color: $col-primary-light;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .carousel-caption {
+        top: 50%;
+    }
+
+    .carousel-caption h1 {
+       font-size: 300%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 125%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .carousel-caption {
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+       font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 100%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .carousel-caption {
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+       font-size: 150%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 75%;
+        font-weight: 300;
+        padding-bottom: .1rem;
+    }
+
+}
+
+/*
+
+Bootstrap breakpoints
+
+x-small		                       		<576px
+
+small	            	sm	           	>576px
+
+medium	            	md	            >768px
+
+large	            	lg	            >992px
+
+extra large		        xl	        	>1200px
+
+extra extra large		xxl 	    	>1400px
+
+
+
+1rem = 16px
+
+*/
+
+/* Fixed landing page section */
+
+.home-inner {
+    background-image: url(img/background2.jpg);
+  }
+
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+
+  
